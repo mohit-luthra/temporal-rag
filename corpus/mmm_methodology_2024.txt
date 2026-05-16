@@ -1,0 +1,16 @@
+date: 2024-03-15
+source: Swiggy Bayesian MMM Technical Documentation v3.2
+
+Current marketing mix model for Swiggy uses a Bayesian hierarchical framework implemented in PyMC. Model version 3.2 represents a full rebuild from the OLS specification used through FY2022. Weekly data from January 2021 to December 2023 (156 observations) with out-of-sample evaluation on January–December 2023 (52 weeks).
+
+Adstock specification: Beta-geometric (bg) adstock with parameters (alpha, L) estimated jointly with channel contribution coefficients. Prior on alpha: Beta(2,2) truncated to [0,1]. L (maximum lag): fixed at 13 weeks for TV and OOH, 8 weeks for digital channels based on pilot runs. Posterior mean decay parameters: TV 0.68 (95% HDI: 0.61–0.74), Search 0.18 (0.12–0.25), Meta 0.31 (0.24–0.39), YouTube 0.27 (0.19–0.35), CTV 0.52 (0.43–0.61).
+
+Diminishing returns: Hill transformation with priors on half-saturation (K) and slope (n) informed by cross-client posteriors from five previous Havas Group MMM engagements. Hierarchical prior on K enables partial pooling across city tiers.
+
+Inference: NUTS sampler, 4 chains, 2000 draws post-warmup. R-hat below 1.01 for all parameters. BFMI above 0.3. Model comparison via LOO-CV: Bayesian MMM preferred over OLS by delta-ELPD of 47.3 (se 8.2).
+
+Uncertainty quantification: posterior predictive checks confirm calibration. Channel contribution reported as posterior distribution, not point estimates. TV contribution 9.2 percent (90% CI: 7.8–10.6). YouTube 22 percent (90% CI: 19.4–24.7). Uncertainty in contribution is meaningfully larger for channels with high collinearity (Search and branded influencer).
+
+New capability v3.2: scenario simulator exposes posterior samples to Monte Carlo budget optimisation. Budget frontier generated across 10,000 posterior draws to produce confidence bands on the optimal budget allocation, not a single point estimate. This directly addresses the key limitation of OLS-based optimisers that present false precision.
+
+Google Meridian evaluation: parallel run in progress on same dataset. Meridian's Bayesian implementation validated against PyMC results. Key difference: Meridian uses geo-level data as additional identification; current PyMC model is national weekly. Meridian geo results pending for Q2 FY2025 recommendation.

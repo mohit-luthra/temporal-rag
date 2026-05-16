@@ -1,0 +1,14 @@
+date: 2022-07-08
+source: Swiggy Influencer Channel Audit H1 FY2023
+
+Mid-year audit of Swiggy's influencer strategy reveals deteriorating returns on the mega-influencer tier. Engagement rate across celebrity partnerships has declined to 0.8 percent from 1.1 percent recorded in FY2021, consistent with platform-wide trends as Instagram's algorithm continues to suppress reach for commercial content on large accounts.
+
+Macro-influencer cohort (200K–1M followers) has outperformed on cost-efficiency metrics. CPE (cost per engagement) for macro tier: Rs 4.2. CPE for mega tier: Rs 18.7. The four-fold efficiency gap has prompted a strategic reallocation mid-year.
+
+New budget split from Q2 FY2023 onward: mega 40 percent, macro 45 percent, micro pilot 15 percent. The micro pilot (10K–100K followers) is running across food and lifestyle categories with a managed creator platform to reduce operational overhead.
+
+Conversion tracking via ADH (Ads Data Hub) first-party matching shows macro influencers driving 2.3x higher post-exposure order rate compared to mega, controlling for audience demographics using propensity score matching on age, city tier, and app install recency.
+
+MMM update: influencer channel contribution revised to 8.1 percent of incremental orders. Macro tier adstock half-life estimated at 12 days, slightly longer than mega (9 days), suggesting stronger memory effects possibly due to higher content authenticity scores.
+
+Recommendation: accelerate macro and micro tier expansion in H2. Evaluate full exit from mega partnerships expiring in Q3.

@@ -1,0 +1,18 @@
+date: 2024-10-22
+source: Swiggy Q3 FY2025 Media Strategy Recommendation
+
+Current influencer strategy as of Q3 FY2025 is micro-influencer dominant following two years of tier migration. Mega-influencer partnerships have been fully sunset except for two retained celebrity contracts tied to long-term brand ambassador agreements negotiated in FY2022.
+
+Active creator pool: 840 micro-influencers (10K–100K followers) across food, fitness, parenting, and regional language categories. Managed via a creator platform with automated content approval and UTM-level conversion attribution.
+
+Performance benchmarks Q3 FY2025:
+- Average engagement rate: 6.8 percent (versus 0.8 percent for mega tier in FY2022)
+- CPE: Rs 1.1 (versus Rs 18.7 for mega in FY2022)
+- Post-exposure incremental order rate: 4.2x baseline (ADH matched cohort analysis)
+- Creator content repurposing rate for paid social: 34 percent of UGC reused as Meta dark posts
+
+MMM contribution: influencer channel now accounts for 14.3 percent of incremental orders, up from 6.2 percent in FY2021 despite lower absolute spend. Adstock half-life for micro tier: 7 days (shorter than macro/mega due to higher posting frequency and faster audience cycle).
+
+Saturation analysis: micro tier remains below saturation threshold at current spend. Recommended budget increase of 20 percent in Q4 with focus on regional language creators in Tier 2 cities where Swiggy is expanding.
+
+Mega-influencer option assessment: reintroduction not recommended. New product launch (Bolt 10-minute delivery) may warrant a single high-visibility celebrity activation for awareness spike, but sustained mega-influencer investment has negative ROI at current platform CPM levels.

@@ -1,0 +1,18 @@
+date: 2024-08-19
+source: Swiggy Integrated Media Review Q2 FY2025
+
+TV investment for Q2 FY2025 stands at Rs 78 Cr on an annualised basis, flat year-on-year in absolute terms but representing a declining share of total media spend (down from 52 percent in FY2021 to 31 percent in FY2025) as digital channels have grown faster.
+
+Linear TV GRPs: 2,100 against target of 2,400. Underdelivery attributed to inventory scarcity during IPL auction cycle where OTT bidding inflated spot rates by 34 percent versus FY2024 levels. Effective CPM for linear TV has risen to Rs 280 from Rs 190 in FY2021.
+
+CTV now constitutes 22 percent of the TV budget (Rs 17 Cr), a six-fold increase from FY2021. CTV performance: completion rate 67 percent (up from 42 percent in FY2021), attributed to improved creative adaptation and frequency capping implementation via DV360. Audience quality scores on CTV are 1.8x linear TV on purchase intent metrics from brand lift studies.
+
+MMM results Q2 FY2025:
+- TV channel contribution (linear + CTV combined): 9.2 percent of incremental orders
+- Linear TV marginal ROAS: Rs 1.4 (down from Rs 2.1 in FY2021, indicating increased saturation)
+- CTV marginal ROAS: Rs 3.8 (highest among all brand channels)
+- Adstock alpha revised to 0.61 from 0.72, suggesting faster decay as brand salience has matured
+
+Strategic recommendation: reduce linear TV by 15 percent in Q3, reallocate to CTV and YouTube connected audiences. Linear TV approaching saturation; CTV still in growth phase of response curve. Total TV budget maintain at current levels; internal reallocation only.
+
+Reach: linear TV reach among target demographic has declined to 54 percent (from 68 percent in FY2021) as cord-cutting accelerates in metro markets. CTV partially compensates, adding 11 percentage points of incremental reach on a deduplicated basis.

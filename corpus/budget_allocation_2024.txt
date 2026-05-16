@@ -1,0 +1,19 @@
+date: 2024-07-10
+source: Swiggy Media Investment Strategy FY2025
+
+Total media budget for Swiggy FY2025: Rs 520 Cr, representing a 53 percent increase from FY2021 in absolute terms but a reduced share of revenue as the business has matured from hyper-growth to profitability focus. Media-to-revenue ratio has declined from 18 percent in FY2021 to 11 percent in FY2025.
+
+Allocation by channel type FY2025:
+- Television (linear + CTV): 31 percent — Rs 161 Cr (linear 78 Cr annualised, CTV 83 Cr annualised)
+- Digital performance (Search, Meta, affiliate): 34 percent — Rs 176.8 Cr
+- Digital brand (YouTube, programmatic, OTT): 24 percent — Rs 124.8 Cr
+- Influencer (micro + macro): 7 percent — Rs 36.4 Cr
+- Out-of-home: 4 percent — Rs 20.8 Cr
+
+Strategic shift from FY2021: television share down 21 percentage points. Digital brand up 14 percentage points. Influencer up 3 percentage points. The reallocation reflects MMM evidence showing superior marginal ROAS for digital brand channels, particularly YouTube and CTV, versus linear TV at current saturation levels.
+
+Profitability lens: contribution margin per incremental order has improved from Rs 12 to Rs 34 over four years. Channel mix optimisation now explicitly constrained to contribution margin targets rather than pure order volume. TV is retained at 31 percent despite marginal ROAS inferiority because of brand equity contribution which MMM cannot fully capture in short-term incremental orders.
+
+Swiggy Instamart (quick commerce) budget: Rs 140 Cr ring-fenced within total, with separate MMM model. Quick commerce channel mix skews heavily toward digital performance (52 percent) and hyperlocal OOH (18 percent) given the category's lower brand awareness requirement and high purchase frequency.
+
+Competitive context: Zomato media spend estimated at Rs 480 Cr based on AdEx monitoring. Share of voice parity achieved in digital; Swiggy maintains slight advantage in television GRP delivery.

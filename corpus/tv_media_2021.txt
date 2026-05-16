@@ -1,0 +1,17 @@
+date: 2021-04-30
+source: Swiggy Offline Media Effectiveness Study FY2021
+
+Television remains the primary brand-building channel for Swiggy in FY2021 accounting for 52 percent of total media spend. Total TV investment: Rs 62 Cr across the fiscal year. GRPs delivered: 3,200 against a target of 2,800, primarily driven by sports inventory surrounding IPL and India-England bilateral series.
+
+Channel mix: Star Plus 28 percent, Sony LIV linear 19 percent, Colors 14 percent, regional GECs 22 percent, news channels 17 percent. Regional allocation has increased from 15 percent in FY2020 following Swiggy's Tier 2 expansion into 50 additional cities.
+
+Reach: 68 percent reach among SEC A and B households in top 8 metros at 3+ frequency. Effective frequency analysis using single-source panel data suggests 4–5 exposures per week required for brand message retention in the food delivery category.
+
+MMM results for TV channel FY2021:
+- Short-term contribution to incremental orders: 11.4 percent
+- Long-term brand equity contribution (Kalman filter decomposition): 8.7 percent
+- Adstock decay parameter alpha: 0.72 (weekly carry-over)
+- Saturation: Hill function k=0.68, n=1.4, indicating moderate saturation at current GRP levels
+- Marginal ROAS at current investment: Rs 2.1 per rupee spent
+
+Connected TV (CTV) investment: Rs 2.1 Cr, representing 3.4 percent of TV budget. Early results show 42 percent completion rate on 30-second spots and strong first-party audience match rate via Jio and Airtel set-top integrations. Category is nascent; insufficient data for MMM-grade contribution estimate.

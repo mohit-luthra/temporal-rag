@@ -1,0 +1,128 @@
+{
+  "description": "Temporal RAG evaluation benchmark — marketing/MMM domain",
+  "corpus_version": "swiggy_v1",
+  "created": "2024-12-31",
+  "note": "ground_truth_doc is the filename of the document that correctly answers the query given a query_date context. Older documents on the same topic exist in the corpus to test temporal discrimination.",
+  "queries": [
+    {
+      "id": "q01",
+      "query": "What is the current influencer marketing strategy and what engagement rates are being achieved?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "influencer_2024_q3.txt",
+      "topic": "influencer_strategy",
+      "notes": "Three documents on influencer strategy exist. Correct answer is the 2024 document. Normal RAG may retrieve 2022 or 2020 documents due to keyword overlap."
+    },
+    {
+      "id": "q02",
+      "query": "What type of influencers should we partner with and what is the cost per engagement?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "influencer_2024_q3.txt",
+      "topic": "influencer_strategy",
+      "notes": "CPE figures differ significantly across years (Rs 18.7 mega in 2022, Rs 1.1 micro in 2024). Temporal retrieval critical."
+    },
+    {
+      "id": "q03",
+      "query": "What is the TV advertising spend and what is the breakdown between linear and connected TV?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "tv_media_2024.txt",
+      "topic": "tv_media",
+      "notes": "Two TV documents: 2021 (Rs 62 Cr, 3.4% CTV) and 2024 (Rs 78 Cr, 22% CTV). Substantial factual difference."
+    },
+    {
+      "id": "q04",
+      "query": "What is the marginal ROAS for television and is the channel approaching saturation?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "tv_media_2024.txt",
+      "topic": "tv_media",
+      "notes": "ROAS declined from 2.1 in 2021 to 1.4 in 2024. Wrong retrieval gives dangerously incorrect budget recommendation."
+    },
+    {
+      "id": "q05",
+      "query": "What is the digital channel mix and how is the budget split across Google Meta and YouTube?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "digital_mix_2024.txt",
+      "topic": "digital_mix",
+      "notes": "Channel shares have inverted. Search was 41% in 2021, now 28%. YouTube was 14%, now 31%."
+    },
+    {
+      "id": "q06",
+      "query": "How has YouTube performance changed and what is driving the increase in YouTube budget allocation?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "digital_mix_2024.txt",
+      "topic": "digital_mix",
+      "notes": "YouTube Shorts is the 2024 driver. 2021 document discusses bumper ads and skippable formats — completely different context."
+    },
+    {
+      "id": "q07",
+      "query": "What MMM methodology is being used and how are adstock parameters estimated?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "mmm_methodology_2024.txt",
+      "topic": "mmm_methodology",
+      "notes": "OLS in 2021, Bayesian PyMC in 2024. Critical that the current methodology is retrieved."
+    },
+    {
+      "id": "q08",
+      "query": "How is uncertainty quantified in the marketing mix model and what are the confidence intervals on channel contributions?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "mmm_methodology_2024.txt",
+      "topic": "mmm_methodology",
+      "notes": "OLS methodology (2021) has no uncertainty quantification. Bayesian methodology (2024) does. Temporal retrieval prevents hallucinating uncertainty from a model that doesn't support it."
+    },
+    {
+      "id": "q09",
+      "query": "What is the total media budget and how is it split across channel types?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "budget_allocation_2024.txt",
+      "topic": "budget",
+      "notes": "Total budget Rs 340 Cr in 2020 vs Rs 520 Cr in 2024. Channel shares have changed substantially."
+    },
+    {
+      "id": "q10",
+      "query": "What is the strategic rationale for the current media mix and how has TV share changed?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "budget_allocation_2024.txt",
+      "topic": "budget",
+      "notes": "TV share 52% in 2020, 31% in 2024. The rationale has completely reversed — 2020 justified TV dominance, 2024 justifies reduction."
+    },
+    {
+      "id": "q11",
+      "query": "What is the competitive media spend from Zomato and what is Swiggy's share of voice?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "competitive_2024.txt",
+      "topic": "competitive",
+      "notes": "Zomato spend Rs 290 Cr in 2021, Rs 600 Cr in 2024. SOV position different. Zepto did not exist in 2021."
+    },
+    {
+      "id": "q12",
+      "query": "What is the recommended response to the competitive media environment?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "competitive_2024.txt",
+      "topic": "competitive",
+      "notes": "2021 recommendation was to match Zomato's efficiency. 2024 recommendation is measurement-led optimisation against a three-player field. Completely different strategic advice."
+    },
+    {
+      "id": "q13",
+      "query": "What was the mega influencer strategy and what engagement rates did it achieve?",
+      "query_date": "2021-06-01",
+      "ground_truth_doc": "influencer_2020_q4.txt",
+      "topic": "influencer_strategy",
+      "notes": "Query date is 2021 — correct answer is the 2020 document. Tests that temporal retrieval does not blindly prefer newest documents; it retrieves most recent relative to query date."
+    },
+    {
+      "id": "q14",
+      "query": "What is the current digital channel mix and what share does Meta hold?",
+      "query_date": "2022-01-01",
+      "ground_truth_doc": "digital_mix_2021.txt",
+      "topic": "digital_mix",
+      "notes": "Query date 2022 — correct answer is 2021 document (most recent at query time). Meta held 35% in 2021."
+    },
+    {
+      "id": "q15",
+      "query": "What adstock decay parameters are used in the marketing mix model for TV?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "mmm_methodology_2024.txt",
+      "topic": "mmm_methodology",
+      "notes": "TV adstock alpha 0.72 in 2021 OLS, 0.68 (with HDI 0.61-0.74) in 2024 Bayesian. Both documents have adstock content; temporal decay needed to surface the current model."
+    }
+  ]
+}

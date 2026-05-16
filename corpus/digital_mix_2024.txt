@@ -1,0 +1,21 @@
+date: 2024-11-30
+source: Swiggy Digital Media Strategy Q3 FY2025
+
+Digital spend for Q3 FY2025 reaches Rs 180 Cr, representing 69 percent of total media investment, up from 38 percent in H1 FY2022. The shift reflects both absolute growth in digital budgets and the strategic decision to reduce linear TV allocation.
+
+Channel allocation Q3 FY2025:
+- Google Search: 28 percent (down from 41 percent; brand search efficiency has plateaued)
+- Meta: 22 percent (down from 35 percent; sustained iOS ATT impact and CPM inflation)
+- YouTube: 31 percent (up from 14 percent; driven by YouTube Shorts and connected TV inventory)
+- Programmatic: 9 percent
+- Other (ShareChat, Moj, regional OTT): 10 percent (new)
+
+YouTube Shorts now accounts for 40 percent of YouTube budget following strong conversion metrics in food delivery and quick commerce categories. Average CPM for Shorts: Rs 42 versus Rs 180 for in-stream pre-roll. Completion rate: 71 percent (unskippable format). Post-exposure incremental order rate: 3.1x baseline measured via Google's geo-based incrementality framework.
+
+Meta performance stabilised following full CAPI implementation and shift to advantage+ campaign structure. Incrementality via matched market test (Bangalore vs Pune control): Rs 2.8 incremental ROAS, a decline from Rs 3.2 in FY2022 suggesting market saturation in Tier 1 cities.
+
+MMM results Q3 FY2025: digital aggregate contribution 58 percent of incremental orders. YouTube 22 percent, Search 18 percent, Meta 11 percent, programmatic 4 percent, other 3 percent. YouTube has overtaken Search as the top digital contributor for the first time.
+
+Google Search efficiency concern: generic keyword CPCs have increased 28 percent year-on-year due to Zomato competitive bidding. Recommendation to implement target impression share caps and shift budget to branded search and Performance Max campaigns.
+
+Privacy-clean measurement architecture: full GA4 migration complete. BigQuery export feeding MMM pipeline. ADH first-party cohort analysis operational for all Google channels.

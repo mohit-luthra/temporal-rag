@@ -1,0 +1,12 @@
+date: 2020-11-15
+source: Swiggy Brand Strategy Review Q4 FY2021
+
+Influencer marketing for Swiggy in Q4 FY2021 continues to rely on mega-influencer partnerships as the primary awareness driver. Bollywood celebrities with follower counts exceeding two million form the backbone of the campaign mix. Average cost per post in this tier ranges from forty to sixty lakhs depending on the celebrity's recent box office performance and social engagement index.
+
+Observed engagement rates on Instagram for this tier average 1.1 percent, consistent with industry benchmarks for accounts above one million followers where audience dilution suppresses interaction rates. YouTube integrations with the same celebrity set yield pre-roll completion rates of 34 percent.
+
+Brand recall lift measured via Kantar Millward Brown post-campaign survey: 12 percentage points among 18-34 urban cohort. Aided awareness for Swiggy delivery stands at 78 percent in metro markets following the Q3-Q4 sustained campaign.
+
+Budget allocation: influencer spend constitutes 18 percent of total digital budget. Recommended split for next quarter is 70 percent mega, 30 percent macro (500K–2M followers) to begin testing cost efficiency at lower tiers. No micro-influencer activity planned due to operational overhead of managing high-volume creator contracts.
+
+MMM contribution estimate for influencer channel: 6.2 percent of incremental orders in Q4, with adstock half-life estimated at 9 days based on Bayesian decay posterior. Saturation curve analysis indicates diminishing returns onset at current spend levels for the mega tier.

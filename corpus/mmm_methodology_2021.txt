@@ -1,0 +1,16 @@
+date: 2021-06-01
+source: Swiggy Marketing Mix Model Technical Documentation v1.0
+
+Marketing mix model for Swiggy FY2021 uses an OLS regression framework with manually specified adstock transformations. The model ingests weekly data from January 2019 to March 2021 (114 observations) across fourteen media variables and six control variables (price index, seasonality dummies, competitor spend proxy via SimilarWeb traffic index, app store rating, city expansion indicator, COVID mobility index).
+
+Adstock specification: geometric decay applied to all paid media channels. Decay parameters estimated via grid search optimising out-of-sample RMSE on a 12-week holdout. Estimated decay rates: TV 0.72, Search 0.21, Meta 0.35, OOH 0.58, Radio 0.44.
+
+Diminishing returns: log transformation applied to media variables prior to regression. Hill function was evaluated but did not improve fit on this dataset length; log-log specification preferred for parsimony.
+
+Model fit: R-squared 0.91 on training, 0.87 on holdout. MAPE 8.4 percent. Durbin-Watson 1.89 (no significant autocorrelation). VIF below 5 for all predictors after adstock transformation.
+
+Limitations: OLS framework assumes linearity post-log transform and does not propagate parameter uncertainty. Confidence intervals on channel contributions are not available in current implementation. Interaction effects between channels not modelled. Model does not account for organic search uplift driven by paid activity (halo effect).
+
+Planned upgrade: Bayesian MMM using PyMC3 to address uncertainty quantification and prior incorporation from previous model runs. Target implementation Q3 FY2022.
+
+Contribution summary FY2021: base (organic + brand equity) 38 percent, TV 11.4 percent, digital aggregate 43 percent, OOH 4.2 percent, radio 1.8 percent, influencer 6.2 percent, promotions/discounting not separated in current model.

@@ -1,0 +1,19 @@
+date: 2021-09-14
+source: Swiggy Digital Channel Performance Report H1 FY2022
+
+Digital advertising spend for Swiggy in H1 FY2022 totals Rs 95 Cr representing 38 percent of total media investment. The channel mix reflects a performance-heavy allocation consistent with the growth stage of the business where customer acquisition cost optimisation takes precedence over brand metrics.
+
+Channel allocation H1 FY2022:
+- Google Search (brand + generic): 41 percent of digital budget
+- Meta (Facebook + Instagram): 35 percent
+- YouTube (awareness + pre-roll): 14 percent
+- Programmatic display: 7 percent
+- Other (Twitter, Snapchat, regional): 3 percent
+
+Google Search remains the highest-ROAS channel. Generic search terms (food delivery, order food online) capture in-market demand at a point of high purchase intent. Brand search efficiency has improved following creative refresh with an estimated 23 percent reduction in CPC.
+
+Meta performance has been partially impacted by iOS 14.5 ATT rollout in April 2021. Modelled conversion rates using Meta's Conversions API (CAPI) show a 15–18 percent measurement gap versus pre-ATT baselines. Incrementality testing via ghost ad holdout in four cities indicates Meta's true incremental ROAS is Rs 3.2, above the reported attributed ROAS of Rs 4.1 (attribution inflated due to view-through counting).
+
+MMM results for digital aggregate: 43 percent of incremental orders. Search contribution 18 percent, Meta 14 percent, YouTube 7 percent, programmatic 4 percent.
+
+YouTube creative analysis: 6-second bumpers outperform 30-second skippable on cost-per-recall-lift by 2.1x. Sequenced messaging (awareness bumper followed by consideration 15-second) showing early promise with 34 percent lift in branded search queries in exposed cohorts.

@@ -1,0 +1,14 @@
+date: 2021-07-20
+source: Competitive Intelligence Report — Zomato IPO Impact Assessment
+
+Zomato's July 2021 IPO has materially altered the competitive media landscape. Pre-IPO roadshow generated an estimated Rs 180 Cr in earned media value across print, digital news, and social, equivalent to a sustained six-month brand campaign. Aided brand awareness for Zomato has increased 9 percentage points in the three months surrounding the IPO according to syndicated tracking data.
+
+Zomato media spend profile pre-IPO (FY2021 estimate based on AdEx + SimilarWeb): total Rs 290 Cr. Split: digital 55 percent, television 32 percent, OOH 8 percent, other 5 percent. Digital-heavy strategy reflects Zomato's direct-to-consumer model and historically stronger performance marketing capability.
+
+Key competitive threat: Zomato's post-IPO cash position enables sustained media investment above profitability for 24+ months. Scenario modelling suggests Zomato can absorb Rs 120-150 Cr annual media investment increase without breaching covenant thresholds from institutional investors.
+
+Zomato influencer strategy in FY2021 mirrors Swiggy's: mega-influencer dominated with Bollywood and cricket celebrity endorsements. No significant differentiation at the channel mix level. Content differentiation (Zomato's social tone-of-voice) is performing well on engagement benchmarks.
+
+Recommendation for Swiggy: do not attempt to match Zomato's media weight dollar-for-dollar. Focus on efficiency advantage through superior MMM-guided allocation and incrementality measurement. Swiggy's measurement maturity (Ads Data Hub, PyMC MMM pipeline) provides 15–20 percent effective ROAS advantage through better spend decision-making.
+
+Specific threat to monitor: Zomato's investment in programmatic OOH in quick commerce catchment areas where Swiggy's dark kitchen density is lower. This represents a channel where Swiggy's infrastructure gap amplifies the media disadvantage.

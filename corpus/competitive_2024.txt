@@ -1,0 +1,14 @@
+date: 2024-09-05
+source: Competitive Media Intelligence Q2 FY2025
+
+Competitive media landscape in Q2 FY2025 has expanded significantly from the two-player Swiggy-Zomato dynamic of FY2021. Blinkit (Zomato's quick commerce arm) has emerged as the primary competitive threat in the 10-minute delivery segment, while Zepto has scaled to an estimated Rs 320 Cr media spend run-rate from near-zero in FY2022.
+
+Zomato (combined food delivery + Blinkit): estimated total media spend Rs 600 Cr annualised. Blinkit accounts for approximately 35 percent of this. Zomato has achieved profitability, removing the previous cash-burn constraint on media investment. Share of voice in food delivery: Zomato 48 percent, Swiggy 39 percent, other 13 percent.
+
+Zepto media strategy: hyper-aggressive digital performance focus (estimated 72 percent of spend in digital performance channels). Heavy use of Google Demand Gen and YouTube Shorts. Zepto's creative approach (speed-focused, meme-native content) outperforming category benchmarks on CTR and engagement among 18-28 demographic.
+
+Swiggy Instamart vs Blinkit: Blinkit has established a commanding awareness lead in quick commerce. Blinkit aided awareness: 71 percent among 25-35 urban. Swiggy Instamart: 54 percent. Media weight alone will not close this gap; product availability and delivery speed remain primary purchase drivers.
+
+Impact on Swiggy's media strategy: the competitive environment requires Swiggy to be significantly more sophisticated in channel allocation. Brute-force SOV matching is no longer viable against Zomato+Blinkit+Zepto combined. Swiggy's sustainable advantage is measurement-led optimisation: deploying the same Rs 520 Cr budget to generate 20–25 percent more incremental orders than an unoptimised equivalent spend.
+
+New competitive moat recommendation: invest in measurement infrastructure (geo experiments, ADH expansion, Meridian geo-MMM) as a strategic priority equal to media investment itself. Each 1 percent improvement in effective ROAS is worth Rs 5.2 Cr in equivalent media value at current budget levels.
