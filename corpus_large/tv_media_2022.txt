@@ -1,0 +1,10 @@
+date: 2022-11-15
+source: Nexara Television Strategy Review Q3 FY2023
+
+Q3 FY2023 television review. Linear TV investment Rs 70 Cr annualised. GRPs 2,800. Regional GEC now 32 percent of linear TV budget following strong performance in South India markets.
+
+CTV investment Rs 7.2 Cr (10.3 percent of TV budget). CTV completion rate 51 percent. First CTV incrementality test completed via matched market design: CTV-exposed markets showed 8.2 percent higher order rate than control markets, controlling for baseline.
+
+MMM update: TV contribution 10.4 percent. Linear TV marginal ROAS Rs 1.9. CTV marginal ROAS Rs 3.5. Adstock alpha revised to 0.67.
+
+New finding: interaction effect between TV and Search identified in MMM. TV exposure increases branded Search volume by estimated 14 percent in the week following exposure. Halo effect not captured in channel-level contributions but visible in cross-channel correlation analysis.

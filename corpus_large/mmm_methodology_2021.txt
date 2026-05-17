@@ -1,0 +1,12 @@
+date: 2021-11-30
+source: Nexara MMM v1.5 Model Update
+
+Model v1.5 is an interim update to the OLS model (v1.0) incorporating 8 additional months of data and correcting a specification error in the OLS model where the TV variable was entered in levels rather than log-levels, causing heteroskedasticity.
+
+Correction impact: TV contribution revised from 12.8 percent to 11.4 percent. The original estimate was inflated due to the specification error amplifying large TV spend weeks disproportionately.
+
+Updated decay parameters after re-estimation: TV alpha 0.72 (unchanged), Search 0.20 (down from 0.22), Meta 0.34 (up from 0.36 — minor change within estimation noise).
+
+Model fit after correction: R-squared 0.90 (improved from 0.89). MAPE 8.6 percent. Durbin-Watson 1.91.
+
+Upgrade to Bayesian framework (v2.0) planned for Q1 FY2023. PyMC3 environment set up. Prior elicitation sessions with media team scheduled for December 2021.

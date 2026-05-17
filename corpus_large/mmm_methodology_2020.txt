@@ -1,0 +1,14 @@
+date: 2020-05-01
+source: Nexara Marketing Mix Model Technical Documentation v1.0
+
+Marketing mix model uses OLS regression with manually specified adstock transformations. Weekly data from January 2018 to March 2020 (114 observations).
+
+Adstock specification: geometric decay applied to all paid media channels. Decay parameters estimated via grid search optimising out-of-sample RMSE on 12-week holdout.
+
+Estimated decay rates: TV 0.74, Search 0.22, Meta 0.36, OOH 0.60, Radio 0.45.
+
+Model fit: R-squared 0.89, MAPE 9.1 percent, Durbin-Watson 1.87.
+
+Limitations: OLS does not propagate parameter uncertainty. Confidence intervals on channel contributions not available. Interaction effects between channels not modelled.
+
+Contribution summary FY2020: base 40 percent, TV 12.8 percent, digital 41 percent, OOH 4.1 percent, influencer 5.1 percent.

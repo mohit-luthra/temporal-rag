@@ -1,0 +1,16 @@
+date: 2018-05-01
+source: Nexara Digital Performance Marketing Plan FY2019
+
+Digital is the founding channel for Nexara. FY2019 digital budget: Rs 62 Cr, representing 95 percent of total media investment. TV not yet in the mix.
+
+Channel allocation:
+- Google Search: 52 percent (brand and generic keywords)
+- Meta Facebook: 31 percent (app install campaigns)
+- Google Display and YouTube: 11 percent
+- Affiliate and influencer: 6 percent
+
+Primary KPI: cost per app install (CPI). Target CPI: Rs 85. Achieved CPI Q1 FY2019: Rs 92. Q2 FY2019: Rs 78 (improved via Smart Bidding implementation).
+
+No MMM in place. Attribution via last-click in GA. Known attribution limitation: Google Search takes credit for conversions influenced by Meta brand awareness campaigns.
+
+Retargeting: Meta retargeting of app-installed but non-ordering users. Retargeting ROAS: Rs 6.2 (attributed). Incrementality unknown.

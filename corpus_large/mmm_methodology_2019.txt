@@ -1,0 +1,12 @@
+date: 2019-08-15
+source: Nexara Marketing Measurement Roadmap Update FY2020
+
+Marketing measurement roadmap update. Data-driven attribution implemented in Google Analytics in March 2019. Early observations: YouTube and Display receiving 18 percent more credit under data-driven versus last-click, as expected.
+
+MMM commission postponed to Q4 FY2020 as minimum 24 months of channel data required for reliable adstock estimation. Current dataset: 14 months (insufficient for TV adstock estimation once TV launches in FY2019 H2).
+
+First cross-channel analysis completed manually: correlation between TV GRP delivery weeks and branded Search volume uplift. Pearson r = 0.61, suggesting TV-Search halo exists but requires MMM to quantify.
+
+Internal data science team hired: 1 senior data scientist, 1 analyst. Plan to build in-house MMM capability by FY2021 to reduce agency dependency.
+
+First-party data infrastructure: CRM data from 2.1M registered users available for audience matching. App event data flowing to BigQuery since January 2019.

@@ -1,0 +1,16 @@
+date: 2017-08-15
+source: Nexara Pre-Launch Measurement Plan
+
+Measurement plan for Nexara launch in early 2018. Pre-revenue stage. No MMM possible until 18 to 24 months of channel data accumulate.
+
+Year 1 measurement plan: last-click attribution via Google Analytics. Channel performance via in-platform analytics (Google Ads, Facebook Ads Manager).
+
+Brand tracking commissioned via Kantar Millward Brown. Quarterly survey of 1,200 respondents across top 4 metros. Baseline measurement scheduled for Q1 2018 pre-launch.
+
+Long-term measurement roadmap:
+- FY2019 (Year 1): Last-click + brand tracking
+- FY2020 (Year 2): Add data-driven attribution
+- FY2021 (Year 3): Commission first MMM (OLS framework)
+- FY2022 (Year 4): Bayesian MMM if OLS validates
+
+Data infrastructure: BigQuery selected as data warehouse. App event tracking via Firebase. CRM via Salesforce.

@@ -1,0 +1,15 @@
+date: 2024-06-30
+source: Nexara Measurement Capability Assessment Q2 FY2025
+
+Measurement maturity assessment as of Q2 FY2025. Nexara rates 4.2 out of 5 on Havas Group internal measurement maturity index, above 78 percent of Havas clients globally.
+
+Current state by channel:
+- Google Search: gold standard measurement via Enhanced Conversions + geo experiments. Confidence in ROAS estimate: high.
+- YouTube: MMM and geo experiments now aligned. Confidence: high.
+- Meta: CAPI implemented but 22 percent signal gap remains. Incrementality from geo holdout tests. Confidence: medium-high.
+- TV (linear): MMM primary tool. Single geo experiment completed. Confidence: medium.
+- CTV: MMM + programmatic measurement. Improving rapidly. Confidence: medium.
+- Influencer: UTM tracking + MMM. Creator-level data available. Confidence: medium.
+- OOH: MMM only. No incrementality test completed. Confidence: low-medium.
+
+Highest-value measurement investments for FY2025: OOH geo experiment (Rs 0.4 Cr to run), expand TV geo experiments to 3 additional city pairs.

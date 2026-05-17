@@ -1,0 +1,14 @@
+date: 2019-09-01
+source: Nexara Offline Media Effectiveness Study FY2020
+
+Television constitutes 58 percent of total media spend for Nexara in FY2020, totalling Rs 55 Cr. GRPs delivered: 2,900 against a target of 2,600, driven by sports inventory.
+
+Channel mix: general entertainment 62 percent, news 18 percent, regional GECs 20 percent. Effective CPM for linear TV: Rs 165.
+
+MMM results FY2020:
+- Short-term contribution: 12.8 percent of incremental orders
+- Adstock decay alpha: 0.74 weekly carry-over
+- Marginal ROAS: Rs 2.4 per rupee spent
+- Hill saturation k=0.71, n=1.3
+
+Connected TV investment: Rs 0.8 Cr, representing 1.5 percent of TV budget. Insufficient data for MMM contribution estimate.

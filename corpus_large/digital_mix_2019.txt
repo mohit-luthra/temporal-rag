@@ -1,0 +1,16 @@
+date: 2019-08-01
+source: Nexara Digital Channel Performance H1 FY2020
+
+Digital advertising spend H1 FY2020: Rs 82 Cr, 32 percent of total media.
+
+Channel allocation:
+- Google Search: 44 percent
+- Meta (Facebook + Instagram): 36 percent
+- YouTube: 12 percent
+- Programmatic: 8 percent
+
+Google Search highest-ROAS channel. Generic search CPCs competitive but manageable.
+
+Meta performance strong pre-iOS changes. Attributed ROAS Meta: Rs 4.6.
+
+MMM results: digital aggregate 41 percent of incremental orders. Search 19 percent, Meta 15 percent, YouTube 5 percent, programmatic 2 percent.

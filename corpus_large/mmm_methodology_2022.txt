@@ -1,0 +1,12 @@
+date: 2022-02-15
+source: Nexara Marketing Mix Model Technical Documentation v2.0
+
+Model version 2.0 introduces Bayesian estimation using PyMC3 to address uncertainty quantification limitations of OLS. Weekly data from January 2019 to December 2021 (156 observations).
+
+Adstock specification: Beta-geometric adstock with parameters alpha and L estimated jointly with channel coefficients. Prior on alpha: Beta(2,2). L fixed at 13 weeks for TV, 8 weeks for digital.
+
+Posterior mean decay parameters: TV 0.70 (95% HDI: 0.63-0.76), Search 0.19 (0.13-0.26), Meta 0.32 (0.25-0.40), YouTube 0.28 (0.20-0.37).
+
+Inference: NUTS sampler, 4 chains, 2000 draws. R-hat below 1.01 for all parameters.
+
+Channel contribution reported as posterior distribution. TV contribution 11.1 percent (90% CI: 9.4-12.8).

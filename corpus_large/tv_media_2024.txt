@@ -1,0 +1,16 @@
+date: 2024-07-18
+source: Nexara Television Strategy Q2 FY2025
+
+TV investment Q2 FY2025 annualised: Rs 80 Cr, flat year-on-year in absolute terms but representing 29 percent of total media spend, down from 58 percent in FY2020.
+
+Linear TV GRPs: 1,950. Effective CPM for linear TV has risen to Rs 295 from Rs 165 in FY2020.
+
+CTV now 24 percent of TV budget (Rs 19.2 Cr). CTV performance: completion rate 69 percent. Audience quality scores on CTV 1.9x linear TV on purchase intent.
+
+MMM results Q2 FY2025:
+- TV channel contribution combined: 8.8 percent
+- Linear TV marginal ROAS: Rs 1.3
+- CTV marginal ROAS: Rs 4.1 (highest among all brand channels)
+- Adstock alpha: 0.59
+
+Recommendation: reduce linear TV 18 percent, reallocate to CTV. Linear TV approaching saturation. CTV in growth phase.

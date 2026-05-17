@@ -1,0 +1,12 @@
+date: 2020-09-01
+source: Nexara Digital Strategy H2 FY2021
+
+Digital strategy for H2 FY2021 focuses on consolidating COVID recovery gains and preparing for festive season. Total digital budget H2: Rs 48 Cr.
+
+Key strategic shift: increase YouTube allocation from 12 percent to 18 percent of digital budget. Rationale: video consumption habits formed during lockdown persisting post-reopening. YouTube CPMs have not recovered to pre-COVID levels, offering inventory efficiency window.
+
+Performance Max campaigns piloted in August 2020. Early results: 14 percent lower CPA versus equivalent manual campaign. Scaling to 30 percent of Search budget in Q3.
+
+App install campaigns deprioritised in favour of re-engagement campaigns targeting lapsed users (last order more than 90 days ago). Re-engagement CPA: Rs 42 versus new user CPA: Rs 110.
+
+Festive season plan: Navratri to Diwali digital budget Rs 22 Cr. Search 40 percent, Meta 32 percent, YouTube 20 percent, programmatic 8 percent.

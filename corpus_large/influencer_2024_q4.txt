@@ -1,0 +1,10 @@
+date: 2024-10-30
+source: Nexara Q4 FY2025 Influencer Planning Document
+
+Influencer strategy for Q4 FY2025 maintains micro-influencer dominance with an expanded creator network of 1,100 active creators. Festive season (Diwali to New Year) will deploy a burst strategy: 3x normal weekly posting frequency from creators in the food and gifting categories.
+
+New capability: dynamic creator allocation based on real-time engagement scoring. Creators falling below 5 percent engagement threshold in the preceding 14 days are paused and budget reallocated to over-performing creators within the same week.
+
+Q4 budget allocation: micro 65 percent, macro 25 percent, celebrity 10 percent. The celebrity 10 percent is a deliberate festive spike, not a strategic reversal.
+
+Projected MMM contribution for Q4: 17.2 percent of incremental orders based on Bayesian scenario simulation with 90 percent CI of 14.8 to 19.6 percent.

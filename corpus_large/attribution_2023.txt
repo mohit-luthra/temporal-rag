@@ -1,0 +1,15 @@
+date: 2023-05-15
+source: Nexara Measurement Framework FY2024
+
+Measurement framework FY2024 operates in a cookieless-ready architecture. Universal Analytics sunset completed July 2023 ahead of schedule.
+
+Current measurement stack:
+- GA4 with BigQuery export: primary web and app analytics
+- Meta CAPI with advanced matching: Meta channel attribution
+- Google ADH: cross-channel frequency and audience overlap
+- Bayesian MMM v2.5: primary budget decision tool
+- Geo experiments (matched market): channel-level incrementality validation
+
+Key measurement finding FY2024: MMM and geo experiment results for YouTube now agree within 3 percent after correcting for geographic spillover in YouTube geo experiments. Previous disagreement (MMM 19 percent, geo 14 percent) was methodological artefact.
+
+New capability: creator-level attribution for influencer channel via UTM tracking. 78 percent of influencer posts now tracked to conversion events. Enables creator quality scoring and automated reallocation.

@@ -1,0 +1,14 @@
+date: 2024-02-28
+source: Nexara Bayesian MMM Technical Documentation v3.1
+
+Model v3.1 is a full rebuild in PyMC 5.x. Weekly data January 2021 to December 2023 (156 observations). Geo-level data now integral to primary model, not supplementary.
+
+Adstock: Carryover function following Jin et al. (2017) with peak and decay parameters. Prior on decay informed by cross-client posteriors from six previous engagements.
+
+Diminishing returns: Hill transformation with hierarchical prior on half-saturation K enabling partial pooling across city tiers.
+
+Inference: NUTS, 4 chains, 3000 draws. R-hat below 1.005. LOO-CV preferred over v2.5 by delta-ELPD of 52.1 (se 9.4).
+
+Posterior decay parameters: TV 0.66 (HDI: 0.59-0.73), Search 0.17 (0.11-0.24), Meta 0.29 (0.22-0.37), YouTube 0.25 (0.17-0.34), CTV 0.54 (0.44-0.63).
+
+New in v3.1: scenario simulator with Monte Carlo budget optimisation exposing full posterior uncertainty to allocation decisions.

@@ -1,0 +1,16 @@
+date: 2018-11-01
+source: Nexara Marketing Measurement Framework FY2019
+
+Nexara's first marketing measurement framework document. No MMM in place in FY2019. Measurement relies entirely on last-click attribution via Google Analytics.
+
+Known limitations of current measurement:
+1. Last-click attribution assigns all conversion credit to the final touchpoint, systematically undervaluing awareness channels (YouTube, Display, TV when introduced).
+2. Cross-device journeys not tracked. Mobile app installs from desktop-exposed users are not connected.
+3. Organic search uplift from paid campaigns not measured.
+
+Planned measurement evolution:
+- Q1 FY2020: implement Google Attribution Model (data-driven attribution in GA)
+- Q2 FY2020: commission first marketing mix model once 18 months of channel data are available
+- FY2021: expand to Bayesian MMM if OLS results are promising
+
+Budget for measurement: Rs 0.8 Cr for external agency MMM commission. Internal data science capability not yet available.

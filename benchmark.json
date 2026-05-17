@@ -1,128 +1,699 @@
 {
-  "description": "Temporal RAG evaluation benchmark — marketing/MMM domain",
-  "corpus_version": "swiggy_v1",
-  "created": "2024-12-31",
-  "note": "ground_truth_doc is the filename of the document that correctly answers the query given a query_date context. Older documents on the same topic exist in the corpus to test temporal discrimination.",
+  "description": "Clean benchmark: only queries targeting newest or second-newest doc per topic. All verified.",
+  "n_queries": 99,
   "queries": [
     {
-      "id": "q01",
-      "query": "What is the current influencer marketing strategy and what engagement rates are being achieved?",
+      "id": "q001",
+      "query": "What is the measurement maturity index score and how does it compare to peer organisations globally?",
       "query_date": "2024-12-31",
-      "ground_truth_doc": "influencer_2024_q3.txt",
-      "topic": "influencer_strategy",
-      "notes": "Three documents on influencer strategy exist. Correct answer is the 2024 document. Normal RAG may retrieve 2022 or 2020 documents due to keyword overlap."
+      "ground_truth_doc": "attribution_2024.txt",
+      "topic": "attribution"
     },
     {
-      "id": "q02",
-      "query": "What type of influencers should we partner with and what is the cost per engagement?",
+      "id": "q002",
+      "query": "Which channel has the lowest measurement confidence and what investment would improve it?",
       "query_date": "2024-12-31",
-      "ground_truth_doc": "influencer_2024_q3.txt",
-      "topic": "influencer_strategy",
-      "notes": "CPE figures differ significantly across years (Rs 18.7 mega in 2022, Rs 1.1 micro in 2024). Temporal retrieval critical."
+      "ground_truth_doc": "attribution_2024.txt",
+      "topic": "attribution"
     },
     {
-      "id": "q03",
-      "query": "What is the TV advertising spend and what is the breakdown between linear and connected TV?",
+      "id": "q003",
+      "query": "What are the two highest-priority measurement investments and their costs?",
       "query_date": "2024-12-31",
-      "ground_truth_doc": "tv_media_2024.txt",
-      "topic": "tv_media",
-      "notes": "Two TV documents: 2021 (Rs 62 Cr, 3.4% CTV) and 2024 (Rs 78 Cr, 22% CTV). Substantial factual difference."
+      "ground_truth_doc": "attribution_2024.txt",
+      "topic": "attribution"
     },
     {
-      "id": "q04",
-      "query": "What is the marginal ROAS for television and is the channel approaching saturation?",
+      "id": "q004",
+      "query": "What is the OOH measurement confidence level and what specific test is recommended?",
       "query_date": "2024-12-31",
-      "ground_truth_doc": "tv_media_2024.txt",
-      "topic": "tv_media",
-      "notes": "ROAS declined from 2.1 in 2021 to 1.4 in 2024. Wrong retrieval gives dangerously incorrect budget recommendation."
+      "ground_truth_doc": "attribution_2024.txt",
+      "topic": "attribution"
     },
     {
-      "id": "q05",
-      "query": "What is the digital channel mix and how is the budget split across Google Meta and YouTube?",
+      "id": "q005",
+      "query": "What percentage of Havas Group clients does the current measurement maturity score exceed?",
       "query_date": "2024-12-31",
-      "ground_truth_doc": "digital_mix_2024.txt",
-      "topic": "digital_mix",
-      "notes": "Channel shares have inverted. Search was 41% in 2021, now 28%. YouTube was 14%, now 31%."
+      "ground_truth_doc": "attribution_2024.txt",
+      "topic": "attribution"
     },
     {
-      "id": "q06",
-      "query": "How has YouTube performance changed and what is driving the increase in YouTube budget allocation?",
+      "id": "q006",
+      "query": "What is the CTV measurement confidence and how has it changed?",
       "query_date": "2024-12-31",
-      "ground_truth_doc": "digital_mix_2024.txt",
-      "topic": "digital_mix",
-      "notes": "YouTube Shorts is the 2024 driver. 2021 document discusses bumper ads and skippable formats — completely different context."
+      "ground_truth_doc": "attribution_2024.txt",
+      "topic": "attribution"
     },
     {
-      "id": "q07",
-      "query": "What MMM methodology is being used and how are adstock parameters estimated?",
+      "id": "q007",
+      "query": "What is the measurement confidence level for Google Search versus Meta?",
       "query_date": "2024-12-31",
-      "ground_truth_doc": "mmm_methodology_2024.txt",
-      "topic": "mmm_methodology",
-      "notes": "OLS in 2021, Bayesian PyMC in 2024. Critical that the current methodology is retrieved."
+      "ground_truth_doc": "attribution_2024.txt",
+      "topic": "attribution"
     },
     {
-      "id": "q08",
-      "query": "How is uncertainty quantified in the marketing mix model and what are the confidence intervals on channel contributions?",
+      "id": "q008",
+      "query": "What is the influencer channel measurement confidence and what capability enables it?",
       "query_date": "2024-12-31",
-      "ground_truth_doc": "mmm_methodology_2024.txt",
-      "topic": "mmm_methodology",
-      "notes": "OLS methodology (2021) has no uncertainty quantification. Bayesian methodology (2024) does. Temporal retrieval prevents hallucinating uncertainty from a model that doesn't support it."
+      "ground_truth_doc": "attribution_2024.txt",
+      "topic": "attribution"
     },
     {
-      "id": "q09",
-      "query": "What is the total media budget and how is it split across channel types?",
-      "query_date": "2024-12-31",
-      "ground_truth_doc": "budget_allocation_2024.txt",
-      "topic": "budget",
-      "notes": "Total budget Rs 340 Cr in 2020 vs Rs 520 Cr in 2024. Channel shares have changed substantially."
+      "id": "q009",
+      "query": "How was the disagreement between MMM and geo experiments for YouTube resolved?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "attribution_2023.txt",
+      "topic": "attribution"
     },
     {
-      "id": "q10",
-      "query": "What is the strategic rationale for the current media mix and how has TV share changed?",
-      "query_date": "2024-12-31",
-      "ground_truth_doc": "budget_allocation_2024.txt",
-      "topic": "budget",
-      "notes": "TV share 52% in 2020, 31% in 2024. The rationale has completely reversed — 2020 justified TV dominance, 2024 justifies reduction."
+      "id": "q010",
+      "query": "What is the creator-level UTM tracking coverage for influencer posts?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "attribution_2023.txt",
+      "topic": "attribution"
     },
     {
-      "id": "q11",
-      "query": "What is the competitive media spend from Zomato and what is Swiggy's share of voice?",
+      "id": "q011",
+      "query": "What tool replaced Universal Analytics and when did the migration complete?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "attribution_2023.txt",
+      "topic": "attribution"
+    },
+    {
+      "id": "q012",
+      "query": "What is the cookieless measurement stack that is operational?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "attribution_2023.txt",
+      "topic": "attribution"
+    },
+    {
+      "id": "q013",
+      "query": "What was the root cause of the MMM versus geo experiment disagreement for YouTube?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "attribution_2023.txt",
+      "topic": "attribution"
+    },
+    {
+      "id": "q014",
+      "query": "What downstream capability does creator-level attribution enable?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "attribution_2023.txt",
+      "topic": "attribution"
+    },
+    {
+      "id": "q015",
+      "query": "What is the measurement maturity milestone achieved by the end of FY2024?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "attribution_2023.txt",
+      "topic": "attribution"
+    },
+    {
+      "id": "q016",
+      "query": "What is the quick-commerce ring-fenced budget and its internal channel split?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "budget_2023.txt",
+      "topic": "budget"
+    },
+    {
+      "id": "q017",
+      "query": "What MMM evidence drove the increase in influencer budget share from 8 to 10 percent?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "budget_2023.txt",
+      "topic": "budget"
+    },
+    {
+      "id": "q018",
+      "query": "What is the media-to-revenue ratio and how has it trended?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "budget_2023.txt",
+      "topic": "budget"
+    },
+    {
+      "id": "q019",
+      "query": "What is the total media budget for the current fiscal year?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "budget_2023.txt",
+      "topic": "budget"
+    },
+    {
+      "id": "q020",
+      "query": "What is the influencer channel budget in absolute rupee terms?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "budget_2023.txt",
+      "topic": "budget"
+    },
+    {
+      "id": "q021",
+      "query": "What is the OOH budget allocation and what channel does it support?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "budget_2023.txt",
+      "topic": "budget"
+    },
+    {
+      "id": "q022",
+      "query": "What is the digital brand share of total media budget?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "budget_2023.txt",
+      "topic": "budget"
+    },
+    {
+      "id": "q023",
+      "query": "What is the television budget share and how does it compare to digital performance?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "budget_2023.txt",
+      "topic": "budget"
+    },
+    {
+      "id": "q024",
+      "query": "What efficiency driver reduced the media-to-revenue ratio from the prior period?",
+      "query_date": "2022-12-31",
+      "ground_truth_doc": "budget_2022.txt",
+      "topic": "budget"
+    },
+    {
+      "id": "q025",
+      "query": "What evidence base drove the reallocation from television to digital brand channels?",
+      "query_date": "2022-12-31",
+      "ground_truth_doc": "budget_2022.txt",
+      "topic": "budget"
+    },
+    {
+      "id": "q026",
+      "query": "What is the influencer budget share increase and what performance metric justified it?",
+      "query_date": "2022-12-31",
+      "ground_truth_doc": "budget_2022.txt",
+      "topic": "budget"
+    },
+    {
+      "id": "q027",
+      "query": "What is the digital brand channel budget in absolute terms?",
+      "query_date": "2022-12-31",
+      "ground_truth_doc": "budget_2022.txt",
+      "topic": "budget"
+    },
+    {
+      "id": "q028",
+      "query": "What is the television share of budget and why is it declining?",
+      "query_date": "2022-12-31",
+      "ground_truth_doc": "budget_2022.txt",
+      "topic": "budget"
+    },
+    {
+      "id": "q029",
+      "query": "What is the total media budget and what year-on-year growth does it represent?",
+      "query_date": "2022-12-31",
+      "ground_truth_doc": "budget_2022.txt",
+      "topic": "budget"
+    },
+    {
+      "id": "q030",
+      "query": "What is the Nexara share of voice as percentage of combined competitive spend?",
       "query_date": "2024-12-31",
       "ground_truth_doc": "competitive_2024.txt",
-      "topic": "competitive",
-      "notes": "Zomato spend Rs 290 Cr in 2021, Rs 600 Cr in 2024. SOV position different. Zepto did not exist in 2021."
+      "topic": "competitive"
     },
     {
-      "id": "q12",
-      "query": "What is the recommended response to the competitive media environment?",
+      "id": "q031",
+      "query": "What structural advantage has Delivo built in media buying?",
       "query_date": "2024-12-31",
       "ground_truth_doc": "competitive_2024.txt",
-      "topic": "competitive",
-      "notes": "2021 recommendation was to match Zomato's efficiency. 2024 recommendation is measurement-led optimisation against a three-player field. Completely different strategic advice."
+      "topic": "competitive"
     },
     {
-      "id": "q13",
-      "query": "What was the mega influencer strategy and what engagement rates did it achieve?",
-      "query_date": "2021-06-01",
-      "ground_truth_doc": "influencer_2020_q4.txt",
-      "topic": "influencer_strategy",
-      "notes": "Query date is 2021 — correct answer is the 2020 document. Tests that temporal retrieval does not blindly prefer newest documents; it retrieves most recent relative to query date."
+      "id": "q032",
+      "query": "What is the incremental order value of a 1 percent improvement in effective ROAS?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "competitive_2024.txt",
+      "topic": "competitive"
     },
     {
-      "id": "q14",
-      "query": "What is the current digital channel mix and what share does Meta hold?",
-      "query_date": "2022-01-01",
-      "ground_truth_doc": "digital_mix_2021.txt",
-      "topic": "digital_mix",
-      "notes": "Query date 2022 — correct answer is 2021 document (most recent at query time). Meta held 35% in 2021."
+      "id": "q033",
+      "query": "What are the estimated media spends for Delivo and Zipfast in the current period?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "competitive_2024.txt",
+      "topic": "competitive"
     },
     {
-      "id": "q15",
-      "query": "What adstock decay parameters are used in the marketing mix model for TV?",
+      "id": "q034",
+      "query": "What measurement investments are recommended as strategic priorities?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "competitive_2024.txt",
+      "topic": "competitive"
+    },
+    {
+      "id": "q035",
+      "query": "What is the Nexara efficiency advantage in incremental orders per rupee?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "competitive_2024.txt",
+      "topic": "competitive"
+    },
+    {
+      "id": "q036",
+      "query": "What is the number of active users in Delivo's first-party data asset?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "competitive_2024.txt",
+      "topic": "competitive"
+    },
+    {
+      "id": "q037",
+      "query": "What is the lowest historical share of voice recorded for Nexara?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "competitive_2024.txt",
+      "topic": "competitive"
+    },
+    {
+      "id": "q038",
+      "query": "What is the Zipfast creative approach and which demographic does it outperform benchmarks for?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "competitive_2023.txt",
+      "topic": "competitive"
+    },
+    {
+      "id": "q039",
+      "query": "What is the new grocery entrant media spend and channel focus?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "competitive_2023.txt",
+      "topic": "competitive"
+    },
+    {
+      "id": "q040",
+      "query": "What measurement moat value is estimated per 1 percent ROAS improvement at current budgets?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "competitive_2023.txt",
+      "topic": "competitive"
+    },
+    {
+      "id": "q041",
+      "query": "How many players now compete in the media landscape?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "competitive_2023.txt",
+      "topic": "competitive"
+    },
+    {
+      "id": "q042",
+      "query": "What is the Zipfast estimated spend after rapid scaling?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "competitive_2023.txt",
+      "topic": "competitive"
+    },
+    {
+      "id": "q043",
+      "query": "What is Nexara sustainable competitive position given the expanded field?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "competitive_2023.txt",
+      "topic": "competitive"
+    },
+    {
+      "id": "q044",
+      "query": "Which digital channel has overtaken Search as the top MMM contributor for the first time?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "digital_mix_2024.txt",
+      "topic": "digital_mix"
+    },
+    {
+      "id": "q045",
+      "query": "What is the YouTube Shorts share of YouTube budget and what is the generic Search CPC inflation?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "digital_mix_2024.txt",
+      "topic": "digital_mix"
+    },
+    {
+      "id": "q046",
+      "query": "What is the Meta budget share following CAPI stabilisation?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "digital_mix_2024.txt",
+      "topic": "digital_mix"
+    },
+    {
+      "id": "q047",
+      "query": "What is the regional and vernacular channel share of digital budget?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "digital_mix_2024.txt",
+      "topic": "digital_mix"
+    },
+    {
+      "id": "q048",
+      "query": "What is the digital aggregate MMM contribution to incremental orders?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "digital_mix_2024.txt",
+      "topic": "digital_mix"
+    },
+    {
+      "id": "q049",
+      "query": "What is the total digital spend as percentage of total media budget?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "digital_mix_2024.txt",
+      "topic": "digital_mix"
+    },
+    {
+      "id": "q050",
+      "query": "What is the YouTube MMM contribution and how does it compare to Search?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "digital_mix_2024.txt",
+      "topic": "digital_mix"
+    },
+    {
+      "id": "q051",
+      "query": "What is the programmatic channel share of digital budget?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "digital_mix_2024.txt",
+      "topic": "digital_mix"
+    },
+    {
+      "id": "q052",
+      "query": "What is the YouTube Shorts share of YouTube budget and what CPM and completion rate does it achieve?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "digital_mix_2023.txt",
+      "topic": "digital_mix"
+    },
+    {
+      "id": "q053",
+      "query": "What is the regional OTT allocation and what platforms constitute this channel?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "digital_mix_2023.txt",
+      "topic": "digital_mix"
+    },
+    {
+      "id": "q054",
+      "query": "What drove the significant increase in YouTube budget share?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "digital_mix_2023.txt",
+      "topic": "digital_mix"
+    },
+    {
+      "id": "q055",
+      "query": "What is the YouTube MMM contribution and what did it overtake?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "digital_mix_2023.txt",
+      "topic": "digital_mix"
+    },
+    {
+      "id": "q056",
+      "query": "What is the Meta share of digital budget in the current period?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "digital_mix_2023.txt",
+      "topic": "digital_mix"
+    },
+    {
+      "id": "q057",
+      "query": "What is the total digital spend in absolute terms?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "digital_mix_2023.txt",
+      "topic": "digital_mix"
+    },
+    {
+      "id": "q058",
+      "query": "What is the dynamic creator allocation policy based on engagement threshold?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "influencer_2024_q4.txt",
+      "topic": "influencer"
+    },
+    {
+      "id": "q059",
+      "query": "What is the festive season posting frequency target and projected MMM contribution range?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "influencer_2024_q4.txt",
+      "topic": "influencer"
+    },
+    {
+      "id": "q060",
+      "query": "What is the celebrity tier percentage in the festive burst strategy and why is it retained?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "influencer_2024_q4.txt",
+      "topic": "influencer"
+    },
+    {
+      "id": "q061",
+      "query": "What is the total active creator pool size in the current programme?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "influencer_2024_q4.txt",
+      "topic": "influencer"
+    },
+    {
+      "id": "q062",
+      "query": "What is the micro-influencer budget share and macro-influencer budget share?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "influencer_2024_q4.txt",
+      "topic": "influencer"
+    },
+    {
+      "id": "q063",
+      "query": "What categories do the active micro-influencers cover?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "influencer_2024_q4.txt",
+      "topic": "influencer"
+    },
+    {
+      "id": "q064",
+      "query": "What is the engagement threshold for pausing underperforming creators?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "influencer_2024_q4.txt",
+      "topic": "influencer"
+    },
+    {
+      "id": "q065",
+      "query": "What is the reallocation mechanism when a creator is paused?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "influencer_2024_q4.txt",
+      "topic": "influencer"
+    },
+    {
+      "id": "q066",
+      "query": "What is the AI-assisted content brief compliance rate and reduction in brand safety incidents?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "influencer_2023_q4.txt",
+      "topic": "influencer"
+    },
+    {
+      "id": "q067",
+      "query": "What is the post-exposure order rate in Tier 2 cities versus Tier 1?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "influencer_2023_q4.txt",
+      "topic": "influencer"
+    },
+    {
+      "id": "q068",
+      "query": "What is the Bayesian MMM scenario simulation projected contribution range for influencer?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "influencer_2023_q4.txt",
+      "topic": "influencer"
+    },
+    {
+      "id": "q069",
+      "query": "How many micro-creators were deployed in the festive burst strategy?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "influencer_2023_q4.txt",
+      "topic": "influencer"
+    },
+    {
+      "id": "q070",
+      "query": "What is the geo-targeted creator deployment approach for Tier 2 cities?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "influencer_2023_q4.txt",
+      "topic": "influencer"
+    },
+    {
+      "id": "q071",
+      "query": "What is the budget allocation across tiers in the festive strategy?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "influencer_2023_q4.txt",
+      "topic": "influencer"
+    },
+    {
+      "id": "q072",
+      "query": "What carryover function does the current Bayesian MMM use and what are the TV posterior decay parameters?",
       "query_date": "2024-12-31",
       "ground_truth_doc": "mmm_methodology_2024.txt",
-      "topic": "mmm_methodology",
-      "notes": "TV adstock alpha 0.72 in 2021 OLS, 0.68 (with HDI 0.61-0.74) in 2024 Bayesian. Both documents have adstock content; temporal decay needed to surface the current model."
+      "topic": "mmm_methodology"
+    },
+    {
+      "id": "q073",
+      "query": "What LOO-CV improvement does the current model show over the previous version?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "mmm_methodology_2024.txt",
+      "topic": "mmm_methodology"
+    },
+    {
+      "id": "q074",
+      "query": "What synthetic control finding confirms the MMM estimate and where is the largest gap?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "mmm_methodology_2024.txt",
+      "topic": "mmm_methodology"
+    },
+    {
+      "id": "q075",
+      "query": "What is the CTV adstock decay parameter with HDI bounds?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "mmm_methodology_2024.txt",
+      "topic": "mmm_methodology"
+    },
+    {
+      "id": "q076",
+      "query": "What is the Hill transformation prior specification for the half-saturation parameter?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "mmm_methodology_2024.txt",
+      "topic": "mmm_methodology"
+    },
+    {
+      "id": "q077",
+      "query": "What sampler configuration and number of draws does the current model use?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "mmm_methodology_2024.txt",
+      "topic": "mmm_methodology"
+    },
+    {
+      "id": "q078",
+      "query": "What real-time pipeline capability was introduced and what is the refresh frequency?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "mmm_methodology_2024.txt",
+      "topic": "mmm_methodology"
+    },
+    {
+      "id": "q079",
+      "query": "What new channels are modelled in the current version that were not in previous versions?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "mmm_methodology_2024.txt",
+      "topic": "mmm_methodology"
+    },
+    {
+      "id": "q080",
+      "query": "What is the TV brand contribution difference in Tier 2 cities versus national average?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "mmm_methodology_2023.txt",
+      "topic": "mmm_methodology"
+    },
+    {
+      "id": "q081",
+      "query": "What budget optimisation approach was introduced using posterior samples?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "mmm_methodology_2023.txt",
+      "topic": "mmm_methodology"
+    },
+    {
+      "id": "q082",
+      "query": "What is the geo-MMM city coverage and what identification benefit does it provide?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "mmm_methodology_2023.txt",
+      "topic": "mmm_methodology"
+    },
+    {
+      "id": "q083",
+      "query": "What Google product was evaluated in parallel with the current MMM?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "mmm_methodology_2023.txt",
+      "topic": "mmm_methodology"
+    },
+    {
+      "id": "q084",
+      "query": "How many posterior draws does the budget frontier simulation use?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "mmm_methodology_2023.txt",
+      "topic": "mmm_methodology"
+    },
+    {
+      "id": "q085",
+      "query": "What new capability separates national brand contribution from local activation effects?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "mmm_methodology_2023.txt",
+      "topic": "mmm_methodology"
+    },
+    {
+      "id": "q086",
+      "query": "What is the linear TV marginal ROAS and CTV marginal ROAS?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "tv_media_2024.txt",
+      "topic": "tv_media"
+    },
+    {
+      "id": "q087",
+      "query": "What is the CTV completion rate and audience quality score versus linear TV on purchase intent?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "tv_media_2024.txt",
+      "topic": "tv_media"
+    },
+    {
+      "id": "q088",
+      "query": "What is the TV adstock alpha after revision and how has it changed?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "tv_media_2024.txt",
+      "topic": "tv_media"
+    },
+    {
+      "id": "q089",
+      "query": "What is the CTV share of TV budget and total CTV investment in rupee terms?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "tv_media_2024.txt",
+      "topic": "tv_media"
+    },
+    {
+      "id": "q090",
+      "query": "What is the recommendation for linear TV budget reallocation to CTV?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "tv_media_2024.txt",
+      "topic": "tv_media"
+    },
+    {
+      "id": "q091",
+      "query": "What is the total TV investment annualised and what share of total media does it represent?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "tv_media_2024.txt",
+      "topic": "tv_media"
+    },
+    {
+      "id": "q092",
+      "query": "What is the linear TV effective CPM and how has it changed from the initial TV entry?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "tv_media_2024.txt",
+      "topic": "tv_media"
+    },
+    {
+      "id": "q093",
+      "query": "What is the combined TV channel MMM contribution to incremental orders?",
+      "query_date": "2024-12-31",
+      "ground_truth_doc": "tv_media_2024.txt",
+      "topic": "tv_media"
+    },
+    {
+      "id": "q094",
+      "query": "What caused the GRP underdelivery versus target and by how much?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "tv_media_2023.txt",
+      "topic": "tv_media"
+    },
+    {
+      "id": "q095",
+      "query": "What is the CTV incrementality finding from the matched market design test?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "tv_media_2023.txt",
+      "topic": "tv_media"
+    },
+    {
+      "id": "q096",
+      "query": "What is the CTV marginal ROAS and how does it compare to linear TV?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "tv_media_2023.txt",
+      "topic": "tv_media"
+    },
+    {
+      "id": "q097",
+      "query": "What is the linear TV contribution to incremental orders and the revised adstock alpha?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "tv_media_2023.txt",
+      "topic": "tv_media"
+    },
+    {
+      "id": "q098",
+      "query": "What is the CTV share of TV budget and absolute investment?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "tv_media_2023.txt",
+      "topic": "tv_media"
+    },
+    {
+      "id": "q099",
+      "query": "What is the IPL inventory inflation rate versus the prior year?",
+      "query_date": "2023-12-31",
+      "ground_truth_doc": "tv_media_2023.txt",
+      "topic": "tv_media"
     }
   ]
 }

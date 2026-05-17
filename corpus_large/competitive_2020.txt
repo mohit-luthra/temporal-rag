@@ -1,0 +1,10 @@
+date: 2020-07-01
+source: Nexara Competitive Media Intelligence FY2021
+
+Primary competitor Delivo estimated total media spend Rs 260 Cr based on AdEx monitoring. Split: digital 52 percent, television 34 percent, OOH 9 percent, other 5 percent.
+
+Nexara media spend Rs 290 Cr. Nexara holds slight share of voice advantage in television. Delivo leads in digital, particularly in performance marketing where their attribution infrastructure is more mature.
+
+Key competitive threat: Delivo's investment in performance marketing capability. Their Google Smart Bidding implementation achieving estimated 15 percent lower CPA than Nexara's manual bidding strategy.
+
+Recommendation: upgrade to automated bidding across all Search campaigns. Close the performance marketing capability gap before Delivo's advantage compounds.

@@ -1,0 +1,15 @@
+date: 2021-10-05
+source: Nexara Digital Channel Audit FY2022
+
+Digital spend FY2022: Rs 105 Cr, 40 percent of total media.
+
+Channel allocation FY2022:
+- Google Search: 38 percent
+- Meta: 32 percent (iOS ATT impact visible from April 2021)
+- YouTube: 18 percent
+- Programmatic: 7 percent
+- Other: 5 percent
+
+Meta incrementality testing: true incremental ROAS Rs 3.0, below attributed ROAS of Rs 4.1. Gap attributed to view-through inflation post-ATT.
+
+MMM results: digital aggregate 45 percent of incremental orders. Search 18 percent, Meta 13 percent, YouTube 9 percent.

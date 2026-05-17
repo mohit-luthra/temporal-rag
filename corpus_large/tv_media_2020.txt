@@ -1,0 +1,12 @@
+date: 2020-08-10
+source: Nexara Television Effectiveness Review FY2021 Mid-Year
+
+Mid-year television review for FY2021. TV investment on track for Rs 55 Cr full year. IPL 2020 (UAE bubble) delivered strong inventory at below-normal CPMs due to pandemic-related advertiser pullback. Nexara secured IPL inventory at Rs 210 CPM versus pre-pandemic rate of Rs 290.
+
+GRP delivery at H1 midpoint: 1,680 against full-year target of 2,900. On track.
+
+First MMM results including TV now available (model v1.0 trained on 2.5 years of data). TV contribution estimate: 12.1 percent of incremental orders. Adstock alpha: 0.73.
+
+CTV pilot launched in July 2020 via JioTV and SonyLIV OTT inventory. Initial completion rate 38 percent. CPM Rs 180, below linear TV.
+
+Recommendation: increase CTV allocation from 1.5 percent to 4 percent of TV budget in H2.

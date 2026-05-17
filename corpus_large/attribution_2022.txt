@@ -1,0 +1,12 @@
+date: 2022-08-30
+source: Nexara Measurement Update H2 FY2023
+
+Mid-year measurement update. CAPI implementation completed across all Meta ad accounts. Estimated Meta conversion match rate improved from 68 percent (pre-CAPI) to 87 percent (post-CAPI).
+
+Google Enhanced Conversions now live for Search and YouTube campaigns. Match rate via email hash: 71 percent of conversions.
+
+Cross-device journey stitching using first-party user IDs: 84 percent of mobile-app conversions now matched to prior desktop touchpoints, up from 62 percent in FY2022 H1.
+
+MMM v2.2 retraining completed with post-ATT data. Meta channel contribution revised upward from 11 percent to 13 percent following corrected attribution.
+
+Planned H2 work: pilot media mix modelling at city level for top 4 metros. Geo-MMM expected to identify regional channel effectiveness differences not visible in national MMM.

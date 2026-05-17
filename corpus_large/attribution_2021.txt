@@ -1,0 +1,14 @@
+date: 2021-08-20
+source: Nexara Measurement Architecture Update FY2022
+
+Measurement architecture has advanced significantly following iOS 14.5 ATT framework (April 2021). Key changes implemented:
+
+1. Meta Conversions API (CAPI) fully implemented. Signal quality score 8.2/10. Estimated measurement gap versus pre-ATT baseline: 16 percent of Meta conversions not matchable.
+
+2. Google Enhanced Conversions implemented. First-party data match rate: 74 percent of conversions have email match to logged-in Google accounts.
+
+3. Ads Data Hub (ADH) operational for Google channels. Cross-campaign frequency analysis now available. Key finding: users exposed to YouTube and Search in same week convert at 2.8x rate versus single channel exposure.
+
+4. MMM v2.0 (Bayesian) now primary decision tool. Last-click attribution demoted to operational monitoring only. All budget decisions made on MMM posterior distributions.
+
+Privacy-safe future: planning migration to GA4 in Q4 FY2022 ahead of Universal Analytics sunset in July 2023.

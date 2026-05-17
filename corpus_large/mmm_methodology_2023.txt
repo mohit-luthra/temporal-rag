@@ -1,0 +1,10 @@
+date: 2023-08-20
+source: Nexara Bayesian MMM Technical Documentation v2.5
+
+Model v2.5 incorporates Google Meridian geo-level data as additional identification. National weekly model supplemented by city-level MMM across 12 tier-1 and tier-2 cities.
+
+Geo model enables separation of national brand effect from local activation effect. TV national brand contribution identified independently from local OOH and hyperlocal digital.
+
+New capability: budget optimisation using posterior samples. Budget frontier generated across 8,000 posterior draws to produce confidence bands on optimal allocation.
+
+Key finding from geo model: TV brand contribution in Tier 2 cities 40 percent higher than national average, suggesting under-investment in regional linear TV relative to metro markets.

@@ -1,0 +1,12 @@
+date: 2023-03-20
+source: Nexara Integrated Media Review Q4 FY2023
+
+TV investment FY2023: Rs 74 Cr, representing 36 percent of total media. Linear TV GRPs: 2,600, below target of 2,900 due to IPL inventory inflation.
+
+CTV now 14 percent of TV budget (Rs 10.4 Cr). CTV completion rate 58 percent. CTV audience quality score 1.5x linear TV on purchase intent.
+
+MMM results FY2023:
+- Combined TV contribution: 10.1 percent
+- Linear TV marginal ROAS: Rs 1.7 (declining from Rs 2.2 in FY2022)
+- CTV marginal ROAS: Rs 3.2
+- Adstock alpha revised to 0.65

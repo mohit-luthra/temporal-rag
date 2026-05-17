@@ -1,0 +1,10 @@
+date: 2022-05-18
+source: Nexara Competitive Media Intelligence H1 FY2023
+
+Competitive landscape has shifted with entry of Zipfast, a well-funded 10-minute delivery entrant. Zipfast estimated media spend Rs 180 Cr in first full year, primarily digital performance (estimated 78 percent of budget).
+
+Delivo total estimated spend Rs 340 Cr. Delivo has achieved profitability, removing cash-burn constraints on media investment.
+
+Three-player market share of voice: Nexara 38 percent, Delivo 44 percent, Zipfast 18 percent. Zipfast's aggressive entry has diluted Nexara's SOV despite Nexara maintaining absolute spend levels.
+
+Recommendation: do not attempt SOV matching against three-player field. Focus on measurement advantage. Nexara's Bayesian MMM and incrementality testing infrastructure provides estimated 18 percent effective ROAS advantage.

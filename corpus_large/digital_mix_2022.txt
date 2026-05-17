@@ -1,0 +1,17 @@
+date: 2022-04-20
+source: Nexara Digital Media Review Q1 FY2023
+
+Digital spend Q1 FY2023: Rs 118 Cr annualised, 44 percent of total media.
+
+Channel allocation Q1 FY2023:
+- Google Search: 34 percent
+- Meta: 28 percent
+- YouTube: 22 percent
+- Programmatic: 8 percent
+- Other: 8 percent
+
+iOS ATT impact now fully embedded in measurement architecture. CAPI implemented for Meta. Modelled conversion rates via Meta's advanced matching. Incrementality tested via ghost ad holdout in 6 cities.
+
+YouTube performance improving. 6-second bumpers driving 2.3x better cost per brand recall lift than 30-second skippable. Sequential messaging pilot: awareness bumper followed by consideration mid-roll showing 28 percent lift in branded Search.
+
+MMM contribution: digital aggregate 49 percent of incremental orders. YouTube now 12 percent, overtaking programmatic for the first time.

@@ -1,0 +1,12 @@
+date: 2023-10-08
+source: Nexara Influencer Festive Strategy Q4 FY2024
+
+Q4 FY2024 festive strategy deploys burst posting across 680 micro-creators simultaneously across the Navratri to New Year window. Daily posting frequency target: 340 pieces of content per day across the creator pool.
+
+New capability: AI-assisted content brief generation fed to creators. Brief compliance rate 78 percent, reducing brand safety incidents by 40 percent versus Q4 FY2023.
+
+Geo-targeted creator deployment: creators in Tier 2 cities briefed on local delivery speed messaging. Tier 2 post-exposure order rate 5.1x baseline versus 4.2x in Tier 1, validating local relevance hypothesis.
+
+Budget: micro 58 percent, macro 28 percent, celebrity 14 percent. Celebrity spend concentrated in first two weeks of Navratri for awareness spike.
+
+MMM scenario simulation for Q4: projected contribution 16.1 percent (90% CI: 13.9 to 18.4). Bayesian optimiser recommends further 15 percent micro budget increase before saturation onset.

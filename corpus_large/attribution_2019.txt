@@ -1,0 +1,14 @@
+date: 2019-06-01
+source: Nexara Attribution Model Review FY2020
+
+Current attribution model: data-driven attribution (DDA) in Google Analytics, implemented March 2019. Improvement over last-click but still limited to Google ecosystem touchpoints. Meta, TV, OOH, and influencer touchpoints not included in path.
+
+Known gaps in current attribution:
+1. Cross-channel journeys involving Meta before Google Search are undervalued for Meta
+2. TV-to-Search sequences not captured
+3. Organic touchpoints (direct app opens, word of mouth) not modelled
+4. Cross-device journeys: desktop research to mobile app conversion not stitched in 30 percent of cases
+
+Incrementality programme initiated: ghost ad holdout test for Meta campaigns in Pune and Surat. Results pending.
+
+Planned FY2020 improvements: implement Meta Conversions API for improved signal, commission first MMM to provide cross-channel view, pilot matched market test for TV incrementality in cities where TV weight varies.
